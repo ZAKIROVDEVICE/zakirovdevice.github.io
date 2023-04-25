@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Inter';
+    color: #777777;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+header .start {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid #777777;
+}
+
+header .start_text {
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+    width: 350px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+header .start .start_text p {
+    font-size: 15px;
+    font-family: 'Inter';
+}
+
+header .start .start_links {
+    width: 565px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .start .start_links .icons i:nth-child(2):hover{
+    color: rgb(0, 200, 255);
+}
+header .start .start_links .icons i:nth-child(1):hover{
+    color: rgb(0, 106, 255);
+}
+header .start .start_links .icons i:nth-child(3):hover{
+    color: rgb(255, 0, 76);
+}
+header .start .start_links .icons i:nth-child(4):hover{
+    color: rgb(255, 68, 0);
+}
+header .start .start_links .icons i:nth-child(5):hover{
+    color: rgb(0, 200, 255);
+}
+header .start .start_links .icons i:nth-child(6):hover{
+    color: rgb(64, 255, 0);
+}
+
+header .start .start_links .icons {
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+}
+header .start .start_links .links a:hover{
+    background-color: #E31E28;
+    color: white;
+    transition: 300ms;
+}
+header .start .start_links .links {
+    width: 385px;
+    height: 46px;
+    display: flex;
+}
+
+header .start .start_links .links a {
+    width: 120px;
+    height: 46px;
+    font-size: 12px;
+    display: grid;
+    place-content: center;
+}
+
+header ul {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul .logo {
+    width: 335px;
+    height: 120px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header ul .logo img {
+    width: 196px;
+    height: 85px;
+}
+
+header ul .search {
+    display: flex;
+}
+
+header ul .search input {
+    width: 531px;
+    height: 42px;
+    display: flex;
+}
+
+header ul .login {
+    margin-right: 150px;
+    width: 280px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul .login p {
+    font-weight: 500;
+    font-size: 13px;
+}
+header ul .login p:hover{
+    color: #E31E28;
+}
+
+header nav {
+    padding-left: 100px;
+    width: 100%;
+    height: 57px;
+    background-color: #E31E28;
+    display: flex;
+}
+
+.navbar {
+    padding-left: 30px;
+    width: 316px;
+    height: 57px;
+}
+
+.card {
+    position: absolute;
+    overflow: hidden;
+    background-color: white;
+}
+
+.title {
+    width: 316px;
+    height: 57px;
+    display: grid;
+    place-content: center;
+    color: white;
+    background-color: #E31E28;
+
+}
+
+h4 {
+    width: 220px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+header .navbar .card ul {
+    width: 313px;
+    height: 395px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 313px;
+    font-weight: 600;
+    height: 0;
+    opacity: 0;
+    font-style: 20px;
+    transition: all 1s ease-in-out;
+}
+
+header .navbar .description {
+    width: 313px;
+    border: 1px solid #777777;
+    border-top: none;
+}
+
+header .navbar a {
+    padding-left: 30px;
+    padding-right: 20px;
+    width: 313px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    color: black;
+    border-bottom: 1px solid #777777;
+}
+
+header .navbar a p {
+    width: 210px;
+}
+
+header .navbar .card:hover ul {
+    height: 300px;
+    height: 400px;
+    opacity: 1;
+    background-color: white;
+
+}
+
+header .navbar .card:hover .title {
+    background-color: #D21923;
+    transition: 1s;
+}
+
+header nav .others {
+    padding-left: 50px;
+    width: 700px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .others .linka{
+    width: 100%;
+    height: 56px;   
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header nav .others .links a{
+    width: 100%;
+}
+header nav .others .linka:hover{
+    background-color: #D21923;
+    height: 56px;
+    display: grid;
+    place-content: center;
+
+}
+header nav a {  
+    color: white;
+}
+
+header .main_images {
+    width: 100%;
+    height: 663px;
+    display: flex;
+    padding: 50px 130px 50px 130px;
+}
+
+header .main_images .image {
+    padding: 50px;
+    width: 570px;
+    height: 563px;
+    background-image: url(./young-woman-vape-ecig-pretty-young-female-black-hat-red-clothing-vape-ecig\ 1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header .main_images .image p {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: black;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .main_images .image h1 {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 55px;
+    color: white;
+}
+
+header .main_images .image1 {
+    margin-left: 50px;
+    width: 600px;
+    height: 564pz;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .main_images .image1 .header_product1 {
+    width: 269px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+header .main_images .image1 .header_product1 img {
+    width: 270px;
+    height: 268px;
+}
+
+header .main_images .image1 .header_product2 {
+    width: 269px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url(./dreamix-2.png);
+
+}
