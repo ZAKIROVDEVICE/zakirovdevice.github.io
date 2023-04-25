@@ -1,117 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Protfolio</title>
+    <link rel="stylesheet" href="./Home.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@300&family=Poppins:wght@200;600&family=Roboto&family=Shantell+Sans:wght@300&family=Ubuntu:wght@300;500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
     </style>
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="./font-awesome.min.css">
 </head>
-
 <body>
     <header>
         <nav>
-            <div class="start">
-                <details>
-                    <summary>Санкт-Петербург<i class='bx bx-chevron-down' id="donw"></i></summary>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                </details>
-                <div class="links">
-                    <input type="checkbox" id="check">
-                    <label for="check">
-                        <i class='bx bx-menu' id="menu"></i>
-                        <i class='bx bx-x' id="cancel"></i>
-                    </label>
-                    <li>
-                        <a href="">About us</a>
-                        <a href="">Our Salons</a>
-                        <a href=""> Payments</a>
-                        <a href=""> For business</a>
-                    </li>
-
-                </div>
+            <div class="logo">
+                Zakirov
             </div>
-            <div class="middle">
-                <div class="text">
-                    <h1>alpina</h1>
-                    <p>MARKET</p>
-                </div>
-                <details>
-                    <summary>Catalogs🔻</summary>
-                    <p>Каталог</p>
-                    <p>Каталог по комнатам</p>
-                    <p>Дизайн-проекты</p>
-                    <p>Мебель на заказ</p>
-                </details>
-                <div class="catalogs">
-                    <a href="">Каталог</a>
-                    <a href="">Каталог по комнатам</a>
-                    <a href="">Дизайн-проекты</a>
-                    <a href="">Мебель на заказ</a>
-                </div>
-                <div class="search">
-                    <input type="search" placeholder="Белый стул">
-                </div>
-                <div class="contact">
-                    <h1>8 800 700 40 24</h1>
-                    <p>Позвонить или написать</p>
-                </div>
-                <input type="checkbox" id="check1">
-                <label for="check1" id="label">
-                    <i class='bx bx-universal-access' id="share"></i>
-                </label>
-                <div class="tools" id="tools">
-                    <label for="check1"> <i class='bx bx-x' id="cancel1"></i> </label>
-
-                    <i class='bx bx-user'></i>
-                    <i class='bx bx-message'></i>
-                    <i class='bx bx-heart'></i>
-                    <i class='bx bx-shopping-bag'></i>
-                </div>
-            </div>
+            <li>
+                <a href="">Home</a>
+                <a href="">Projects</a>
+                <a href="">Biography</a>
+                <a href="">Contact me</a>
+            </li>
         </nav>
-        <div class="image"></div>
-
-    </header>
-    <section>
-
-        <div class="top">
-
-            <div class="box">
-                <div class="column">
-                    <div class="box_img">
-                        <img src="./Rectangle 847.png" alt="">
-                        <h3>
-                            Ванная
-                        </h3>
-                    </div>
-                    <div class="box_img">
-                        <img src="./Rectangle 849.png" alt="">
-                        <h3>
-                            Ванная
-                        </h3>
-                    </div>
-                    <div class="box_img">
-                        <img src="./image 3086.png" alt="">
-                        <h3>
-                            Ванная
-                        </h3>
-                    </div>
-                </div>
+        <div class="middle">
+            <div class="left">
+                <h1 id="element"></h1>
             </div>
-
-
+            <div class="right">
+                <ul>
+                      <li style="--color: red">
+                    <span class="base"></span>
+                    <span class="title">HTML</span>
+                    <img src="./html5-logo-24.png" alt="">
+                </li>
+                <li style="--color: #0022ff">
+                    <span class="base"></span>
+                    <span class="title">CSS</span>
+                    <img src="./css3-logo-24.png" alt="">
+                </li>
+                <li style="--color: #8900ff">
+                    <span class="base"></span>
+                    <span class="title">Bootstrap</span>
+                    <img src="./bootstrap-logo-24.png" alt="">
+                </li>
+                </ul>
+            </div>
         </div>
-    </section>
+    </header>
+    <main>
+        <div class="text">My projects</div>
+        <div class="projects">
+            <div class="column">
+            <a href="https://subwin2005.github.io/" title="Click for more">
+                     <div class="box">
+                        <div class="image">
+                            <img src="./man.jpg" alt="">
+                        </div>
+                    
+                    <h2>Mens's shop</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <button>Reveiw</button>
+                </div>
+                </a>
+                <a href="./index.html" title="Click for more">
+                    <div class="box">
+                        <div class="image">
+                             <img src="./image 3086.png" alt="">
+                        </div>
+                   <h2>Alpina shop</h2>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                   <button>Reveiw</button>
+               </div>
+               </a>
+               <a href="./Magazine.html" title="Click for more">
+                <div class="box">
+                    <div class="image">
+                         <img src="./young-woman-vape-ecig-pretty-young-female-black-hat-red-clothing-vape-ecig 1.png" alt="">
+                    </div>
+               <h2>Vape shop</h2>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+               <button>Reveiw</button>
+           </div>
+           </a>
+           <a href="./puzzle.html" title="Click for more">
+            <div class="box">
+                <div class="image">
+                     <img src="./violy-fialki-aniutiny-glazki-mnogo-raznye-makro-raznotsvetny.jpg" alt="">
+                </div>
+           <h2>Puzzle</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+           <button>Reveiw</button>
+       </div>
+       </a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <li>
+            <a href="">Home</a>
+            <a href="">News</a>
+            <a href="">Biogrophy</a>
+            <a href="">Projects</a>
+        </li>
+        <div class="contact">
+            <h1>Contact</h1>
+            <a href=""><button>Instagram</button></a>
+            <a href=""><button>Telegram</button></a>
+            <p>+998902961941</p>
+        </div>
+    </footer>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Hello and welcome to my portfolio! Here you can find the projects done by me.',' These are the programming languages that I use.'],
+            typeSpeed: 70,
+            startDelay: 2000,
+            backSpeed: 20,
+            cursorChar: '',
+        });
+    </script>
 </body>
 
 </html>
