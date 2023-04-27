@@ -372,7 +372,7 @@ footer .contact h1{
         height: 110px;
     }
     header .middle .right{
-        width: 100%;
+        width: 95%;
         height: 100%;
         border-radius: 0;
         border-top-left-radius: 50%;
@@ -411,13 +411,18 @@ footer .contact h1{
     .base:hover+.title {
         margin-top: 235px;
     }
+    main .projects .column{
+              gap: 5px;
+              justify-content: space-evenly;
+    }
     main .projects .column a{
-        width: 45%;
+        width: 40%;
+  
     }
 
 
     header nav li{
-        position: relative;
+        position: fixed;
         left: 1000px;
         transition: 1s;
     }
