@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shantell Sans', cursive;
+font-family: 'Ubuntu', sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+header nav{
+    width: 100%;
+    height: 184px;
+}
+
+header nav  .start{
+    width: 100%;
+    height: 39px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+header nav  .start summary{
+    font-size: 18px;
+}
+header nav  .start details{
+    margin-top: 8px;
+    margin-left: 50px;
+}
+header  nav .start .links, li{
+    width: 500px;
+    height: 39px;
+    display: flex;
+    transition: .5s;
+}
+header  nav .start .links a{
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;align-items: center;
+    color: black;
+    width: 25%;
+    display: grid;
+    place-content: center;
+    transition: 1s;
+}
+header nav .start .links a:hover{
+    background-color: red;
+}
+header nav .start .links input, #menu, #cancel{
+    font-size: 40px;
+    display: none;
+}
+header nav .middle{
+    width: 100%;
+    height: 83px;
+    display: flex;
+    align-items: center;
+}
+header nav .middle .text{
+    width: 130px;
+    height: 45px;
+    color: #950D00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav .middle .catalogs{
+    width: 670px;
+    height: 43px;
+    display: flex;
+}
+header nav .middle .catalogs a{
+    width: 170px;
+    height: 100%;
+    color: black;
+    display: grid;
+    place-content: center;
+    font-weight: 700;
+}
+header nav .middle .catalogs a:hover{
+    color: #079294;
+    border-bottom: 1px solid #079294;transition: .3s;
+}
+header nav .middle .search{
+    margin: 0 50px 0 50px;
+}
+header nav .middle .search input{
+    width: 216px;
+    height: 40px;
+    background: #F6F6F6;
+    border: none;
+    padding-left: 10px;
+
+}
+header nav .middle .contact{
+    width: 230px;
+}
+header nav .middle .contact h1, p{
+    font-size: 100%;
+}
+header nav .middle .tools{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #079294;
+    
+}
+header nav .middle details{
+    display: none;
+    width: 133px;
+    height: 50%;
+
+}
+header nav .middle details summary{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+header nav .middle details p{
+    width: 150%;
+    height: 30px;
+}
+header nav .middle details p:hover{
+    color: #079294;
+    border-bottom: 2px solid #079294;
+}
+#check1, #label, #cancel1{
+    display: none;
+}
+header nav .middle .tools #cancel1{
+    color: black;
+}
+header nav .middle #share{
+    width: 30px;
+    font-size: 30px;
+}
+header .image{
+    width: 100%;
+    height: 454px;
+    background-image: url(./image\ 3090.png);
+}
+section{
+    width: 100%;
+    height: auto;
+}
+section .top{
+    width: 100%;
+    height: 750px;
+}
+section .top .box{
+    width: 100%;
+    height: 400px;
+}
+section .top .box .column{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+section .top .box .column .box_img{
+    height: 100%;
+    width: 448px;
+}
+section .top .box .column .box_img img{
+    width: 448px;
+    height: 218px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1320px){
+    header{
+        width: 100%;
+        height: 134vh;
+    }
+    header nav .middle .search{
+        margin: 0;
+        margin-right: 10xp;
+    }
+    header nav .middle .search input {
+        width: 180px;
+        height: 30px;
+    }
+    header nav .middle .search input::placeholder{
+        font-size: 14px;
+        font-weight: 300;
+    }
+    header nav .middle .contact{
+        width: 110px;
+    }
+    header nav .middle .contact h1, p{
+        font-size: small;
+    }
+    header nav .middle .catalogs{
+        width: 550px;
+    }
+    header nav .middle .catalogs a{
+        width: 120px;
+        font-size: 14px;
+    }
+}
+@media(max-width:850px){
+    header .image{
+        background-position-x: -300px;
+    }
+    header nav .middle .search input{
+        width: 180px;
+        height: 35x;
+}
+    header nav .start .links{
+        width: 450px;
+        display: flex;
+        align-items: flex-end;
+    }
+    header nav .start .links{
+        padding: 0;margin: 0;
+    }
+    header nav .middle .catalogs{
+        display: none;
+    }
+    header nav .middle details{
+        display: inline-block;
+    }
+    header nav .middle .search{
+        margin: 0 30px 0 30px;
+    }
+    header nav .middle .contact h1{
+        font-size: 20px;
+    }
+    header nav .middle .contact p{
+        font-size: 12px;
+    }
+    header nav .middle .catalogs{
+        width: 33%;
+    }
+    header nav  .middle .contact{
+        width: 160px;
+    }
+    header nav .middle .links #check{
+        position: fixed;
+    }
+}
+@media(max-width: 721px){
+    header nav{
+        height: 270px;
+    }
+    header nav  .start details{
+        width: 33%;
+        height: 100%;
+        margin: 0;margin-left: 20px;
+    }
+    header nav .middle details{
+        display: inline-block;
+    }
+    header .start details summary{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    header nav .start .links a{
+        font-size: 14px;
+    }
+    header nav  .middle details summary{
+        padding-top: 20%;
+    }
+    header nav .start .links{
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+    }
+    header nav .start .links #menu{
+        display: inline-block;
+    }
+    header nav .start .links li{
+        position: absolute;
+        width: 150px;
+        top: 70px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        background: gold;
+        display: none;
+        border-radius: 20px;
+        border: 1px solid black;
+        transition: 1s;
+    }
+    #check:checked ~ li{
+        display: inline-block;
+    }
+    header nav .start .links li a{
+        width: 150px;
+        height: 25%;
+        color: black;
+    }
+    header nav .middle{
+        height: 200px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    header nav .middle .text{
+        width: 100%;
+        height: auto;
+        font-size: 150%;
+    }
+    header nav .middle .contact{
+        width: 130px;
+    }
+    header nav .middle .contact h1{
+        font-size: 16px;
+    }
+    header nav .middle #share, #label, #cancel1{
+        display: inline-block;
+    }
+     header nav .middle .tools{
+        position: relative;
+        padding-left: 10px;
+        width: 30px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        display: none;
+        background-color: #079294;
+        border-radius: 15px;
+ 
+    }
+    #check1:checked ~ #tools{
+        display: inline-block;
+    }
+    #check1:checked ~ #label{
+        display: none;
+    }
+    header nav .middle .tools i{
+        font-size: 20px;
+        color: white;
+    }
+
+}
