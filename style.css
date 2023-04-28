@@ -19,6 +19,7 @@ header nav {
     align-items: center;
 }
 header nav .logo {
+    margin-left: 50px;
     width: 100px;
     height: 100%;
     display: grid;
